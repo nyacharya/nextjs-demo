@@ -1,7 +1,7 @@
-export default function WelcomeLayout({ children }) {
+export default function WelcomeLayout() {
   return(
-    <h2 class=" text-green-500 text-bold">
-      WElcome again {children}
+    <h2 className=" text-green-500 text-bold">
+      WElcome again
     </h2>
   )
 }
